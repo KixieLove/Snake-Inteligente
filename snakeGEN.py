@@ -5,7 +5,7 @@ import pickle
 from matplotlib.patches import Rectangle
 
 # Load the data
-with open('D:\\UAEM\\4to semestre\\Busqueda bayesiana\\Codes\\data.pkl', 'rb') as f:
+with open('data.pkl', 'rb') as f:
     data = pickle.load(f)
 
 all_generations = data['all_generations']
